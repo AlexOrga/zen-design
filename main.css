@@ -18,16 +18,6 @@ body {
     display: inline;
 }
 
-
-.main-content-container {
-    background-color: #FFF;
-    margin: 53px auto;
-    padding-top: 1px;
-    width: 47%;
-    border: 1px solid black;
-    min-width: 611px;
-}
-
 header {
     background-color: #EEE;
     margin: 10px auto;
@@ -35,9 +25,9 @@ header {
     text-align: center;
 }
 
-.column-container {
-    margin: 0 auto;
-    width: 98%;
+ul li {
+    list-style-type: none;
+    margin-left: 15px;
 }
 
 footer {
@@ -48,22 +38,50 @@ footer {
 
 /* Grid-------------------------- */
 
+.main-content-container {
+    background-color: #FFF;
+    margin: 53px auto;
+    padding-top: 1px;
+    width: 47%;
+    border: 1px solid black;
+    min-width: 611px;
+}
+
+.column-container {
+    margin: 0 auto;
+    width: 99%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
 .col {
+    display: table-cell;
     margin: 2px;
     text-align: justify;
 }
 
 .left-column {
-    float: left;
-    width: 66%;
+    width: 65%;
+    margin-right: 10px;
 }
 
 .right-column {
-    float: right;
     width: 32%;
 }
 
 /* Styles------------------------ */
+
+.main-img {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    background-image: url(img/invaderdude.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFF;
+    border: 2px solid #EEE;
+}
 
 .contain-style {
     border: 2px solid #EEE;
