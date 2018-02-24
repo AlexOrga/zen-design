@@ -1,0 +1,88 @@
+/* General Styles---------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EEE;
+}
+
+.sect-head h1 {
+    border: 1px solid #EEE;
+    padding: 0 8px;
+}
+
+.sect-head h1, .sect-head h3  {
+    display: inline;
+}
+
+
+.main-content-container {
+    background-color: #FFF;
+    margin: 53px auto;
+    padding-top: 1px;
+    width: 47%;
+    border: 1px solid black;
+    min-width: 611px;
+}
+
+header {
+    background-color: #EEE;
+    margin: 10px auto;
+    width: 98%;
+    text-align: center;
+}
+
+.column-container {
+    margin: 0 auto;
+    width: 98%;
+}
+
+footer {
+    margin: 0 auto;
+    width: 98%;
+    text-align: center;
+}
+
+/* Grid-------------------------- */
+
+.col {
+    margin: 2px;
+    text-align: justify;
+}
+
+.left-column {
+    float: left;
+    width: 66%;
+}
+
+.right-column {
+    float: right;
+    width: 32%;
+}
+
+/* Styles------------------------ */
+
+.contain-style {
+    border: 2px solid #EEE;
+}
+
+.p-container {
+    width: 93%;
+    margin: 0 auto;
+}
+
+.p-container p {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+/* clearfix---------------------- */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
