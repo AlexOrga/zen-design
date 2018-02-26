@@ -1,0 +1,235 @@
+/* General Styles---------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EEE;
+}
+
+header {
+    /* background-color: #EEE; */
+    margin: 10px auto;
+    padding: 100px 0;
+    width: 98%;
+    text-align: center;
+}
+
+header,  
+.summary,  
+footer {
+    background: repeating-linear-gradient( -45deg, #EEE, #EEE 2px, #FFF 4px, #FFF 7px );
+}
+
+ul li {
+    margin: 0 15px;
+    padding: 10px 0 10px 20px;
+    border-bottom: 1px solid #DDD;
+    background-repeat: no-repeat;
+    background-position: 0px 10px;
+    display: block;
+    list-style: none;
+    color: #888;
+    text-transform: lowercase;
+}
+
+ul li:hover {
+    background-color: #EEE;
+}
+
+a {
+    text-decoration: none;
+}
+
+p a {
+    font-weight: bold;
+    color: #666;
+}
+
+ul li a {
+    color: #888;
+}
+
+footer {
+    margin: 0 auto 10px;
+    width: 98%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a,
+footer a:visited {
+    border-bottom: 1px dotted #666;
+    font-weight: bold;
+    font-size: larger;
+    color: #666;
+}
+
+a:hover,
+p a:hover,
+footer a:hover {
+    color: black;
+}
+
+/* Grid-------------------------- */
+
+.main-content-container {
+    background-color: #FFF;
+    margin: 53px auto;
+    padding-top: 1px;
+    width: 47%;
+    border: 1px solid black;
+    min-width: 611px;
+}
+
+.column-container {
+    margin: 0 auto;
+    width: 99%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.col {
+    margin: 2px;
+}
+
+.left-column {
+    width: 65%;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.right-column {
+    width: 32%;
+}
+
+/* Styles------------------------ */
+
+.main-img {
+    margin: 0 auto;
+    width: 175px;
+    height: 175px;
+    background-image: url(img/invaderdude.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFF;
+    border: 2px solid #EEE;
+}
+
+.contain-style {
+    border: 2px solid #EEE;
+}
+
+.p-container {
+    width: 93%;
+    margin: 0 auto;
+}
+
+.main-header h2, .summary h4, .des-arc-res h4 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.main-header h2 {
+    margin-top: 20px;
+}
+
+.sect-head {
+    padding-top: 23px;
+    padding-left: 23px;
+}
+
+.sect-head h1 {
+    border: 3px solid #EEE;
+    padding: 3px 12px;
+}
+
+.sect-head h1, .sect-head h5  {
+    display: inline-block;
+}
+
+.sect-head h5 {
+    width: 87%;
+    border-bottom: 2px solid #EEE;
+}
+
+.sect-head h5, .main-header h5 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.p-container p {
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.p-container p, .summary, .des-arc-res, footer {
+    font-family: Arial, Tahoma, sans-serif;
+}
+
+.summary {
+    padding: 20px 10px 45px 20px;
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
+.des-arc-res h4 {
+    padding: 25px 0 10px 15px;
+    margin: 0 15px;
+    border-bottom: 1px solid #DDD;
+}
+
+.designs li {
+    background-image: url(img/designs.gif);
+}
+
+.archives li {
+    background-image: url(img/archives.gif);
+}
+
+.resources li {
+    background-image: url(img/resources.gif);
+}
+
+/* Invader images---------------- */
+
+#bg-invader {
+    position: absolute;
+    width: 400px;
+    transform: rotate(0deg);
+    top: 2907px;
+    left: 199px;
+    z-index: -1;
+}
+
+.about {
+    position: relative;
+}
+
+#invade-about {
+    display: inline;
+    position: absolute;
+    top: -32px;
+    left: 86px;
+    height: 400px;
+    z-index: 0;
+    opacity: .2;
+}
+
+.participation {
+    position: relative;
+}
+
+#invade-part {
+    display: inline;
+    position: absolute;
+    top: 277px;
+    left: -55px;
+    opacity: .2;
+}
