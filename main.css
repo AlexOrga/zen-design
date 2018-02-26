@@ -179,6 +179,11 @@ footer a:hover {
     line-height: 20px;
 }
 
+.des-arc-res {
+    height: 90.1%;
+    position: relative;
+}
+
 .des-arc-res h4 {
     padding: 25px 0 10px 15px;
     margin: 0 15px;
@@ -231,5 +236,13 @@ footer a:hover {
     position: absolute;
     top: 277px;
     left: -55px;
+    opacity: .2;
+}
+
+#invade-links {
+    position: absolute;
+    width: 250px;
+    top: 1992px;
+    left: 37px;
     opacity: .2;
 }
